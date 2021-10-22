@@ -3,7 +3,10 @@
     --primary-color : #831843;
 }
 body{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif; 
+}
+hr{
+    margin: 2rem 0rem;
 }
 h1{
     font-family: 'Rampart One', cursive;
