@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Rampart+One&display=swap');
+:root{
+    --primary-color : #831843;
+}
 body{
     font-family: 'Libre Baskerville', serif;
 }
 h1{
     font-family: 'Rampart One', cursive;
 }
-.container-fluid{
-    padding-left: 1rem;
-    padding-right: 1rem;
+.container{
+    padding: 0rem 1rem;
 }
 .container-center{
     width : 600px;
     margin: auto;
 }
+.link{
+    padding:0.5rem 1rem;
+    text-decoration: none;
+}
+.primary-link{
+background-color: var(--primary-color);
+border-radius: 0.5rem;
+color: white;
+}
+.secondary-link{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem 1rem;
+}    
