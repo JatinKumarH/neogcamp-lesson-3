@@ -71,6 +71,7 @@ color: white;
     display: block;
 }
 .hero .hero-heading{
+    
     text-align: center;
     padding: 1rem;
     color: var(--dark-gray);
