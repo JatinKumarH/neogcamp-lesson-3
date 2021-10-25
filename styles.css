@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Rampart+One&display=swap');
 :root{
     --primary-color : #831843;
+    --dark-gray: #9CA3AF;
 }
 body{
     font-family: 'Libre Baskerville', serif; 
@@ -58,3 +59,19 @@ color: white;
 .navigation .link-active{
     font-weight: bolder;
 }
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    margin: auto;
+    max-width: 350px;
+    display: block;
+}
+.hero .hero-heading{
+    padding: 1rem;
+    color: var(--dark-gray);
+}
+.hero .hero-heading .heading-highlighted{
+    color: var(--primary-color);
+}
+    
