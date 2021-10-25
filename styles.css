@@ -74,4 +74,12 @@ color: white;
 .hero .hero-heading .heading-highlighted{
     color: var(--primary-color);
 }
-    
+.section {
+    padding: 2rem;
+}
+.section h3{
+    text-align:center;
+}
+.ow{
+    background-color: var(--dark-gray);
+}
